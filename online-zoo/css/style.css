@@ -1,4 +1,9 @@
 @import 'normalize.css';
 @import 'default.css';
 @import 'header.css';
+@import 'hero.css';
+@import 'backstage.css';
+@import 'pets.css';
+@import 'pick.css';
+@import 'testimonials.css';
 @import 'footer.css';

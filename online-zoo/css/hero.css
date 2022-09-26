@@ -1,0 +1,54 @@
+.hero {
+    height: 780px;
+    background-image: url('../assets/img/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero__box {
+    position: relative;
+}
+
+.hero__box_title {
+    position: absolute;
+    max-width: 500px;
+    font-size: 106px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 86px;
+    right: 0;
+    z-index: 5;
+}
+
+.hero__box_content {
+    position: absolute;
+    top: 12px;
+    right: 90px;
+    width: 465px;
+    height: 465px;
+    background-color: #FE9013;
+    border-radius: 50%;
+}
+.hero__span {
+    color: #FFEE2E;
+}
+
+.hero__button {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 298px;
+    padding: 16px 0;
+    position: absolute;
+    top: 546px;
+    right: 100px;
+}
