@@ -92,6 +92,9 @@
     border-radius: 5px;
     margin-bottom: 180px;
 }
+.testomes__button:hover {
+    background-color: #E47209;
+}
 
 .progressbar {
     width: 599px;

@@ -62,7 +62,12 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
+.pets__button:hover {
+    background-color: #E47209;
+}
+.pets__button:active {
+    background-color: green;
+}
 .palm {
     position: absolute;
     left: 0;
@@ -82,6 +87,9 @@
     cursor: pointer;
     border-radius: 50%;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+.slider__button:hover {
+    background: #F9804B;
 }
 
 .slider__button_left {

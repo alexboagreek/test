@@ -52,3 +52,11 @@
     top: 546px;
     right: 100px;
 }
+
+.hero__button:hover {
+    background: #F9804B;
+}
+
+.hero__button_box:active {
+    background-color: green;
+}
