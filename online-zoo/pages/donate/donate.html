@@ -50,16 +50,63 @@
                     <div class="feed__form">
                         <h3 class="feed__form_title">Pick and feed a friend</h3>
                         <p class="feed__form_text">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
-                        <div class="feed__count">
-                            <div class="feed__info"></div>
-                            <img src="../../assets/icons/animals-widget.svg" alt="feed animals" class="feed__image">
-                        </div>
-                        <div class="feed__button">
-                            <button>Feed a friend now</button>
-                        </div>
-                        <div class="feed__share">
-                            <p>Share with your friends on social networks</p>
-                        </div>
+                        <div class="pick-friend__graphics">
+                            <p class="pick-friend__graphics-text">
+                                <span>4</span>
+                                Panda diet for the day.</p>
+                            <img class="pick-friend__graphics-img" src="../../../assets/icons/animals-widget.svg" alt="Panda">
+                          </div>
+                          <form class="pick-friend__form">
+                            <p class="pick-friend__form-label">Amount</p>
+                            <div class="pick-friend__amount-slider">
+                              <div class="pick-friend__amount-group">
+                                <input class="pick-friend__amount-radio" type="radio" name="amount" id="1" value="5000">
+                                <label class="pick-friend__amount-label" for="1" data-amount="$5000">$5000</label>
+                              </div>
+                              <div class="pick-friend__amount-group">
+                                <input class="pick-friend__amount-radio" type="radio" name="amount" id="2" value="2000">
+                                <label class="pick-friend__amount-label" for="2" data-amount="$2000">$2000</label>
+                              </div>
+                              <div class="pick-friend__amount-group">
+                                <input class="pick-friend__amount-radio" type="radio" name="amount" id="3" value="1000" checked="">
+                                <label class="pick-friend__amount-label" for="3" data-amount="$1000">$1000</label>
+                              </div>
+                              <div class="pick-friend__amount-group">
+                                <input class="pick-friend__amount-radio" type="radio" name="amount" id="4" value="500">
+                                <label class="pick-friend__amount-label" for="4" data-amount="$500">$500</label>
+                              </div>
+                              <div class="pick-friend__amount-group">
+                                <input class="pick-friend__amount-radio" type="radio" name="amount" id="5" value="250">
+                                <label class="pick-friend__amount-label" for="5" data-amount="$250">$250</label>
+                              </div>
+                              <div class="pick-friend__amount-group">
+                                <input class="pick-friend__amount-radio" type="radio" name="amount" id="6" value="100">
+                                <label class="pick-friend__amount-label" for="6" data-amount="$100">$100</label>
+                              </div>
+                              <div class="pick-friend__amount-group">
+                                <input class="pick-friend__amount-radio" type="radio" name="amount" id="7" value="50">
+                                <label class="pick-friend__amount-label" for="7" data-amount="$50">$50</label>
+                              </div>
+                              <div class="pick-friend__amount-group">
+                                <input class="pick-friend__amount-radio" type="radio" name="amount" id="8" value="25">
+                                <label class="pick-friend__amount-label" for="8" data-amount="$25">$25</label>
+                              </div>
+                            </div>
+                            <div class="pick-friend__form-inner">
+                              <input class="pick-friend__form-input" type="text" placeholder="Another amount">
+                              <input type="radio" name="time" id="monthly" value="monthly">
+                              <label for="monthly">Monthly</label>
+                              <input type="radio" name="time" id="once" value="once" checked="">
+                              <label for="once">Once</label>
+                            </div>
+                            <div class="feed__button_box">
+                                <button class="feed__button">Feed a friend now</button>
+                            </div>
+                            <div class="feed__share">
+                                <p class="share__text">Share with your friends on social networks</p>
+                            </div>
+                        
+                        </form>
                     </div>
                 </div>
             </div>
